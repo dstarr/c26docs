@@ -38,11 +38,14 @@ markdown_extensions:
       combine_header_slug: true
   - admonition
   - pymdownx.details
+  - attr_list
+  - md_in_html
 
 nav:
   - Home: index.md
-  - FAQ: faq.md
+  - Get Started: get-started.md
   - Glossary: glossary.md
+  - FAQ: faq.md
 
 plugins:
   - meta

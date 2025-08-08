@@ -1,26 +1,17 @@
----
-hide:
-    - navigation
-    - toc
----
 # Frequently Asked Questions
 
-This is some examples of content tabs.
-
-### Generic Content
-
-=== "Plain text"
+=== "Products"
 
     This is some plain text
 
-=== "Unordered list"
+=== "Our Services"
 
     * First item
     * Second item
     * Third item
 
-=== "Ordered list"
+=== "Azure Marketplace"
 
-    1. First item
-    2. Second item
-    3. Third item
+    * First item
+    * Second item
+    * Third item
