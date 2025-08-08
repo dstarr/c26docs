@@ -42,10 +42,13 @@ markdown_extensions:
   - md_in_html
 
 nav:
-  - Home: index.md
+  - Docs Home: index.md
+  - Main site: https://cumulus26.com
   - Get Started: get-started.md
   - Glossary: glossary.md
   - FAQ: faq.md
+  - Contact Us: https://cumulus26.com/contact-us
+  
 
 plugins:
   - meta
