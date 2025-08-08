@@ -3,7 +3,7 @@ site_url: https://docs.cumulus26.com
 
 theme:
   name: material
-  logo: assets/images/c26logo.svg
+  logo: assets/images/c26square.png
   favicon: assets/images/favicon.webp
   features:
     - navigation.tracking
