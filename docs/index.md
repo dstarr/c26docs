@@ -1,8 +1,10 @@
 ---
 description: The Cumulus26 product and services documentation library for cloud marketplaces.
 subtitle: What is this?
-title: Here
 ---
+
+# Welcome to the Docs
+
 <div class="grid" markdown>
 
 **MAIN SITE**<br/><br/>
