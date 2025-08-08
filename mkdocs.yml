@@ -1,0 +1,52 @@
+site_name: Documentation Library
+site_url: https://docs.cumulus26.com
+
+theme:
+  name: material
+  logo: assets/images/c26logo.svg
+  favicon: assets/images/favicon.webp
+  features:
+    - navigation.footer
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: light blue
+      accent: blue
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: light blue
+      accent: blue
+extra:
+  social:
+    - icon: material/youtube
+      link: https://www.youtube.com/@Cumulus26  
+    - icon: material/linkedin
+      link: https://www.linkedin.com/company/cumulus26
+      
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+  - admonition
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - FAQ: faq.md
+  - Sample: samplemd.md
+
+copyright: Copyright &copy; 2025 Cumulus26
+
