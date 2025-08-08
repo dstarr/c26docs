@@ -1,4 +1,4 @@
-# Sample MKDocs Markdown
+# Glossary
 
 ```typescript title="code.ts" linenums="1"
 const log = new Log();

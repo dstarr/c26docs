@@ -1,4 +1,9 @@
-## Frequently Asked Questions
+---
+hide:
+    - navigation
+    - toc
+---
+# Frequently Asked Questions
 
 This is some examples of content tabs.
 

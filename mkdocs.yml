@@ -6,29 +6,25 @@ theme:
   logo: assets/images/c26logo.svg
   favicon: assets/images/favicon.webp
   features:
+    - navigation.tracking
     - navigation.footer
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.sections
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: light blue
-      accent: blue
-    # Light Mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: light blue
-      accent: blue
-extra:
+    primary: custom
+    accent: blue
   social:
     - icon: material/youtube
       link: https://www.youtube.com/@Cumulus26  
     - icon: material/linkedin
       link: https://www.linkedin.com/company/cumulus26
-      
+
+extra_css:
+  - assets/css/style.css
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -46,7 +42,10 @@ markdown_extensions:
 nav:
   - Home: index.md
   - FAQ: faq.md
-  - Sample: samplemd.md
+  - Glossary: glossary.md
+
+plugins:
+  - meta
 
 copyright: Copyright &copy; 2025 Cumulus26
 
